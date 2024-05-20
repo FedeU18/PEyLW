@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 13</title>
+    <link
+      rel="stylesheet"
+      href="ejercicio6.css"
+      type="text/css"
+      media="screen"
+    />
+  </head>
+  <body>
+    <form action="">
+      <table border="1">
+        <tr>
+          <td colspan="2">
+            <label for="">Nombre:</label>
+            <input class="textbox" type="text" name="nombre" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="">Apellido:</label>
+            <input class="textbox" type="text" name="apellido" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="">Dirección:</label>
+            <textarea
+              class="textbox"
+              maxlength="30"
+              name="direccion"
+              id=""
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label>Telefono:</label>
+            <input
+              class="textbox"
+              type="number"
+              name="telefono"
+              placeholder="xxx-xxxxxxx"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="">Opciónes: </label> <br />
+            Alquiler<input type="radio" name="opcion-inmueble" /> <br />
+            Compra<input type="radio" name="opcion-inmueble" checked />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="">Zona: </label><br />
+            Zona norte<input type="checkbox" name="norte" /><br />
+            Zona centro<input type="checkbox" name="centro" checked /> <br />
+            Zona sur<input type="checkbox" name="sur" checked />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="">Comentario</label>
+            <input class="textbox" type="text" name="comentario" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>
+            <input class="button" type="reset" />
+          </td>
+          <td>
+            <input class="button" type="submit" />
+          </td>
+        </tr>
+        <br />
+      </table>
+    </form>
+  </body>
+</html>
