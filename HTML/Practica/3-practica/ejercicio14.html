@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 14</title>
+  </head>
+  <body>
+    <form action="">
+      <table width="50%" cellpadding="5" border="">
+        <tr bgcolor="#abcabc">
+          <th>Name</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" name="name" /></td>
+        </tr>
+        <tr>
+          <td>Sex</td>
+          <td>
+            <input type="radio" name="sex" value="male" />Male
+            <br />
+            <input type="radio" name="sex" value="female" />Female
+          </td>
+        </tr>
+        <tr>
+          <td>Eye color</td>
+          <td>
+            <select name="eye-color" id="eye-color">
+              <option value="default">color</option>
+              <option value="brown">brown</option>
+              <option value="blue">blue</option>
+              <option value="green">green</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Check all that apply</td>
+          <td>
+            <input type="checkbox" />Over 6 feet tall
+            <br />
+            <input type="checkbox" />Over 200 pounds
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            Describe your athletic ability: <br />
+            <textarea cols="46" rows="5" name="ability" id="ability"></textarea>
+          </td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">
+            <input type="submit" value="Enter my information" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
