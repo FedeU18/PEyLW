@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#content div {
+  /* border: 1px solid black; */
+}
+
+#header,
+#nav,
+#contentinner {
+  position: absolute;
+}
+
+#nav {
+  left: 0;
+  top: 7em;
+  width: 10%;
+  padding: 1em;
+  margin: 0 1em 1em 0;
+}
+#contentinner {
+  right: 0;
+  width: 85%;
+  padding: 1em;
+  margin: 1em;
+  top: 5em;
+}
+#header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background-color: #150073;
+  color: #db8b00;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  height: 6em;
+}
+
+#footer {
+  position: absolute;
+  background-color: #150073;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  color: #db8b00;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+#insertbottom {
+  position: absolute;
+  bottom: 12%;
+  width: 99%;
+  background-color: red;
+  height: 1px;
+}
+#hideborderbottom {
+  width: 3em;
+  height: 100%;
+  position: relative;
+  left: 10%;
+
+  background-color: #ffffff;
+}
+
+#inserttop {
+  position: absolute;
+  top: 7em;
+  width: 99%;
+  background-color: red;
+  height: 1px;
+}
+#hidebordertop {
+  width: 3em;
+  height: 100%;
+  position: relative;
+  left: 10%;
+
+  background-color: #ffffff;
+}
+
+#nav {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  padding: 1em 0;
+  background-color: black;
+}
+#nav ul {
+  width: 100%;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+#nav ul li {
+  margin: 0;
+  padding: 0.5em;
+  border: 1px solid gray;
+
+  background-color: #c9c9c9;
+}
