@@ -8,9 +8,6 @@ body {
   height: 100%;
   position: relative;
 }
-#content div {
-  /* border: 1px solid black; */
-}
 
 #header,
 #nav,
@@ -24,6 +21,7 @@ body {
   width: 10%;
   padding: 1em;
   margin: 0 1em 1em 0;
+  text-align: center;
 }
 #contentinner {
   right: 0;
